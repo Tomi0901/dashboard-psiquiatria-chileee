@@ -1,1 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Listas de Espera Psiquiatría Chile</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.plot.ly/plotly-2.35.2.min.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <h1>
+            Evolución en las listas de espera de adulto e infanto-juvenil
+            en atención psiquiátrica en Chile
+        </h1>
+
+        <h2>
+            Análisis comparativo entre 2019, 2021 y 2023
+        </h2>
+
+        <p>
+            Autores: José Best, Tomás Bravo, Valentina Burgos, Sofía Calquin
+        </p>
+
+        <p>
+            Ingeniería Civil en Biomedicina
+        </p>
+
+        <p>
+            Universidad del Desarrollo
+        </p>
+    </header>
+
+    <section class="cards">
+
+        <div class="card">
+            <h3>Promedio 2019</h3>
+            <h2>26.758</h2>
+        </div>
+
+        <div class="card">
+            <h3>Promedio 2021</h3>
+            <h2>26.396</h2>
+        </div>
+
+        <div class="card">
+            <h3>Promedio 2023</h3>
+            <h2>30.313</h2>
+        </div>
+
+    </section>
+
+    <section>
+        <h2>Personas en Lista de Espera</h2>
+        <div id="barras"></div>
+    </section>
+
+    <section>
+        <h2>Distribución por Año</h2>
+
+        <div class="pies">
+
+            <div id="pie2019"></div>
+            <div id="pie2021"></div>
+            <div id="pie2023"></div>
+
+        </div>
+
+    </section>
+
+    <section>
+        <h2>Evolución Temporal</h2>
+        <div id="linea"></div>
+    </section>
+
+    <section>
+        <h2>Evolución Adulto vs Infanto-Juvenil</h2>
+        <div id="area"></div>
+    </section>
+
+    <section>
+
+        <h2>Metodología</h2>
+
+        <p>
+            Datos obtenidos desde informes oficiales de listas de espera
+            del Ministerio de Salud de Chile (Glosa 06).
+        </p>
+
+        <p>
+            Procesamiento y análisis realizados en Microsoft Excel.
+        </p>
+
+    </section>
+
+    <section>
+
+        <h2>Referencias APA 7</h2>
+
+        <ol>
+
+            <li>
+                Ministerio de Salud de Chile. (2019).
+                Informe Glosa 06: Listas de espera GES y No GES.
+            </li>
+
+            <li>
+                Ministerio de Salud de Chile. (2021).
+                Informe Glosa 06: Listas de espera GES y No GES.
+            </li>
+
+            <li>
+                Ministerio de Salud de Chile. (2023).
+                Informe Glosa 05: Listas de espera.
+            </li>
+
+        </ol>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
